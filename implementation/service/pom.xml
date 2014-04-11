@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+
+<parent>
+    <groupId>com.micronet.service.tm</groupId>
+    <artifactId>implementation</artifactId>
+    <version>DYNAMIC-SNAPSHOT</version>
+</parent>
+
+  <artifactId>service</artifactId>
+  <packaging>jar</packaging>
+
+  <name>service</name>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+
+
+
+	<dependencies>
+	<!-- tell maven about required dependencies -->
+				
+		<dependency>
+		  <groupId>com.micronet.service.tm</groupId>
+		  <artifactId>common</artifactId>
+    		<version>DYNAMIC-SNAPSHOT</version>
+		
+		</dependency>
+ 
+		<dependency>
+			<groupId>com.micronet.service.tm</groupId>
+			<artifactId>interface</artifactId>
+			<version>DYNAMIC-SNAPSHOT</version>
+		</dependency>
+        
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            
+        </dependency>
+
+	</dependencies>
+</project>
+
