@@ -18,14 +18,11 @@
 	
 
   <modules>
-
-	<module>common</module>
+	<module>portlets</module>
+	<module>web-services</module>
 	<module>service</module>
-	<!--
-	
-	<module></module>
-	<module></module>
-	<module></module>
-	 -->  	
-  </modules>
+	<module>algorithm</module>
+	<module>data-access</module>
+	<module>common</module>
+</modules>
 </project>

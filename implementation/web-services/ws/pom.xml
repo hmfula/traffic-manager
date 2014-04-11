@@ -5,14 +5,14 @@
 
 <parent>
     <groupId>com.micronet.service.tm</groupId>
-    <artifactId>traffic-manager</artifactId>
+    <artifactId>web-services</artifactId>
     <version>DYNAMIC-SNAPSHOT</version>
 </parent>
 
-  <artifactId>interface</artifactId>
+  <artifactId>ws</artifactId>
   <packaging>jar</packaging>
 
-  <name>interface</name>
+  <name>ws</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
