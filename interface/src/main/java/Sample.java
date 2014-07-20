@@ -1,3 +1,3 @@
 
-puclic class Sample{
+public class Sample{
 }
