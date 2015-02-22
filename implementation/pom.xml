@@ -8,9 +8,7 @@
 	 	 <version>DYNAMIC-SNAPSHOT</version>
 	</parent>
 
-  	<groupId>com.micronet.service.tm</groupId>
   	<artifactId>implementation</artifactId>
-  	<version>DYNAMIC-SNAPSHOT</version>
   	<packaging>pom</packaging>
   	<name>implementation (multi-module)</name>
 

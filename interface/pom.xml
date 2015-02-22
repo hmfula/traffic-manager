@@ -32,11 +32,7 @@
 		
 		</dependency>
  
-		<dependency>
-			<groupId>com.micronet.service.tm</groupId>
-			<artifactId>interface</artifactId>
-			<version>DYNAMIC-SNAPSHOT</version>
-		</dependency>
+		
         
         
         <dependency>
